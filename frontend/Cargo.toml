@@ -1,0 +1,18 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+authors = ["ShineShao <xiaoshaoqq@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew-router = "0.16.0"
+yew = "0.19.3"
+serde = { version = "1.0.137", features = ["derive"] }
+serde_json = "1.0.81"
+stylist = {version = "0.10.1", features = ["yew", "yew_use_style"]}
+web-sys = "0.3.58"
+gloo = "0.4"
+reqwasm ='0.5.0'
+wasm-bindgen-futures = "0.4"

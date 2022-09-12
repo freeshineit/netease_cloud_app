@@ -1,0 +1,14 @@
+@import "./reset.scss";
+
+html,
+body {
+  background-color: #242424;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  user-select: none;
+}

@@ -1,2 +1,13 @@
-# netease_cloud_app
-rust tauri + yew
+# Started 
+
+
+## Available Scripts
+
+```bash
+
+# dev
+cargo tauri dev
+
+# build
+cargo tauri build
+```
