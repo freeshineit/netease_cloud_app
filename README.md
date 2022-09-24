@@ -5,9 +5,13 @@
 
 ```bash
 
-# dev
+# install dependencies
+
+cd frontend && yarn install
+
+# root dev 
 cargo tauri dev
 
-# build
+# root build
 cargo tauri build
 ```
