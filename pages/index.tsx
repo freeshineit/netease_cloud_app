@@ -1,9 +1,21 @@
+import { useEffect } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
+import { useDispatch } from "react-redux";
+// import { stopFetchingUsers, startFetchingUsers } from "@/store/actions";
 
 const Home: NextPage = () => {
+  const dispatch = useDispatch();
+
+  // useEffect(() => {
+  //   dispatch(startFetchingUsers());
+  //   return () => {
+  //     dispatch(stopFetchingUsers());
+  //   };
+  // }, [dispatch]);
+
   return (
     <div className={styles.container}>
       <Head>

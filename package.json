@@ -11,15 +11,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
     "next": "12.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^2.0.0",
+    "rxjs": "6.5.5"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.1.1",
     "@types/node": "18.7.19",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "@types/redux-logger": "^3.0.9",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
     "eslint-config-prettier": "^8.5.0",
