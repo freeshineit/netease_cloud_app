@@ -6,12 +6,11 @@
 ```bash
 
 # install dependencies
+yarn install
 
-cd frontend && yarn install
-
-# root dev 
-cargo tauri dev
+# root dev
+yarn tauri dev
 
 # root build
-cargo tauri build
+yarn tauri build
 ```

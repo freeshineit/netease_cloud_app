@@ -1,9 +1,9 @@
 {
   "build": {
-    "beforeDevCommand": "cd frontend && yarn run dev",
-    "beforeBuildCommand": "cd frontend && yarn run build && yarn run export",
-    "devPath": "http://localhost:3000",
-    "distDir": "../frontend/out"
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn build && yarn export",
+    "distDir": "../out",
+    "devPath": "http://localhost:3000"
   },
   "package": {
     "productName": "tauri-app",
