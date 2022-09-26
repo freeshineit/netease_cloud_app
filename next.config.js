@@ -6,7 +6,10 @@ const nextConfig = {
   // See https://nextjs.org/docs/messages/export-image-api for different workarounds.
   images: {
     unoptimized: true
-  }
+  },
+  compiler: {
+    styledComponents: true,
+  },
 };
 
 module.exports = nextConfig;
