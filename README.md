@@ -1,6 +1,8 @@
 # Started 
 
 
+
+<!-- https://neteasecloudmusicapi-docs.4everland.app/#/?id=neteasecloudmusicapi -->
 ## Available Scripts
 
 ```bash
