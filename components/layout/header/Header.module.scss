@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+}
+
+.left {
+  width: 200px;
+}
+
+.right {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+}

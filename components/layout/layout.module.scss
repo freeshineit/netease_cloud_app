@@ -1,0 +1,44 @@
+$header-height: 50px;
+$header-bg-color: #252525;
+
+$layout-bg-color: #212121;
+
+$sider-default-width: 200px;
+$sider-bg-color: #1d1d1d;
+
+$footer-height: 60px;
+$footer-bg-color: $layout-bg-color;
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: $layout-bg-color;
+}
+
+.container {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.sider {
+  width: $sider-default-width;
+  background-color: $sider-bg-color;
+}
+
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: $header-height;
+  background-color: $header-bg-color;
+}
+
+.footer {
+  height: $footer-height;
+  background-color: $footer-bg-color;
+  border: 2px solid #1f1f1f;
+}

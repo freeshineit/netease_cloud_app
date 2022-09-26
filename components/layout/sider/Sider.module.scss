@@ -1,0 +1,61 @@
+@import "../../../styles/var.scss";
+
+.account {
+  height: 60px;
+}
+
+.title {
+  padding-left: 18px;
+  font-size: 12px;
+  color: #858585;
+  line-height: 22px;
+  height: 22px;
+}
+
+.menu {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 15px;
+}
+
+$item-height: 35px;
+.item {
+  height: $item-height;
+  font-size: 13px;
+
+  a {
+    height: 35px;
+    line-height: 35px;
+    padding-left: 18px;
+    padding-right: 8px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    cursor: default;
+    color: #b1b1b1;
+
+    &:hover {
+      background-color: #1a1a1a;
+    }
+
+    &.selected {
+      background-color: #191919;
+      color: $primary-color;
+    }
+  }
+
+  .icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+
+  .icon span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+  }
+}
