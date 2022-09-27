@@ -6,8 +6,8 @@
     "devPath": "http://localhost:3000"
   },
   "package": {
-    "productName": "tauri-app",
-    "version": "0.1.1"
+    "productName": "Music",
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -58,11 +58,13 @@
     },
     "windows": [
       {
+        "minHeight": 670,
+        "minWidth": 1000,
         "fullscreen": false,
-        "height": 600,
+        "height": 670,
         "resizable": true,
-        "title": "tauri-app",
-        "width": 800
+        "title": "",
+        "width": 1000
       }
     ]
   }
