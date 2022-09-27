@@ -83,10 +83,10 @@ const CarouselItemWrapper = styled.div`
   &.active_prev {
     z-index: 2;
     opacity: 1;
-    transform: translate(-218px, 0px) scale(0.8);
+    transform: translate(-20%, 0px) scale(0.8);
   }
   &.active_next {
-    transform: translate(218px, 0px) scale(0.8);
+    transform: translate(20%, 0px) scale(0.8);
     z-index: 2;
     opacity: 1;
   }
