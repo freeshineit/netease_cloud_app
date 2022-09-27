@@ -15,8 +15,6 @@ import "../styles/globals.scss";
 function MyApp({ Component, pageProps }: AppProps) {
   // const store = useStore(pageProps?.initialReduxState || {});
 
-  console.log("2341234");
-
   return (
     <Provider store={store}>
       <Layout>
